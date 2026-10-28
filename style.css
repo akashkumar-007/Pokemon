@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  padding: 20px;
+}
+.pikachu{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+}
+.pikachu .child1{
+  height: 100%;
+  width: 65%;
+  background-color: #FCC60C;
+  border-radius: 15px 0px 0px 15px;
+  position: relative;
+}
+.pikachu .child2{
+  height: 100%;
+  width: 35%;
+  background-color: #FBE8B3;
+  border-radius: 0px 15px 15px 0px;
+  position: relative;
+}
+.pikachu .child1 img{
+  width: 150px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.small-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.title {
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    position: absolute;
+    top: 370px;
+    left: 70px;
+}
+.page-number {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 520px;
+    left: 70px;
+}
+
+.line {
+    width: 35px;
+    height: 2px;
+    background-color: black;
+}
+
+.page-number span:last-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+.pikachu-image{
+  z-index: 1;
+  height: 700px;
+  position: absolute;
+  left: 47%;
+  bottom: 5%;
+}
+.child2 span{
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.pokeball{
+  
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0.3;
+  font-weight: 900;
+  
+}
